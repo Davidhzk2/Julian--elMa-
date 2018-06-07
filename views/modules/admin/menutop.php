@@ -1,4 +1,4 @@
-<nav>
+<nav class="menutop">
   <ul>
     <div class="wrapmenu">
       <div class="">
