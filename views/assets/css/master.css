@@ -1,0 +1,108 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  --Oswald: 'Oswald', sans-serif;
+  --Roboto: 'Roboto', sans-serif;
+  outline: none;
+}
+/* TODO: standar modal */
+.wrapModal{
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.modal{
+  background: #fff;
+  padding: 10px;
+}
+/* TODO: top menu, estilos del menu superior */
+.topMenu{
+  width: 100%;
+  height: 50px;
+  background: #00877e;
+}
+/* TODO: left menu, estilos del menu izquierdo */
+.leftMenu{
+  width: 250px;
+  height: 100vh;
+  background: #d9d9d9;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+}
+/* TODO: login / landing page */
+.img{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+}
+.wrapLogin{
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login{
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  width: 400px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgba(181,181,181,083);
+  box-shadow: 0 20px 50px -20px black;
+}
+.formInput{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 20px;
+}
+.formInput:nth-child(1){
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.formInput h1{
+  text-align: center;
+  color : #444346;
+  text-transform: uppercase;
+  font-family: var(--Roboto);
+  font-size: 40px;
+}
+.formInput label{
+  text-transform: uppercase;
+  font-family: var(--Oswald);
+  color : #444346;
+}
+.formInput input{
+  padding: 6px;
+  margin: 5px 0px;
+  border-radius: 3px;
+  border: 1px solid #9d9b9b;
+}
+.formInput button{
+  border: 1px solid #636363;
+  background: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color : #444346;
+}
+.formInput button:hover{
+  background: #dfdfdf;
+}
