@@ -14,12 +14,12 @@
 
      public function Docente(){
        require_once "views/include/docente/scope.header.php";
-       // require_once "views/include/docente/index.php";
+       require_once "views/modules/docente/index.php";
        require_once "views/include/docente/scope.footer.php";
      }
      public function admin(){
        require_once "views/include/admin/scope.header.php";
-       // require_once "views/include/admin/index.php";
+       require_once "views/modules/admin/index.php";
        require_once "views/include/admin/scope.footer.php";
      }
       public function registrar(){
