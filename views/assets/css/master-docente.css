@@ -85,3 +85,9 @@
 .itemLeft:hover{
   background: #a8a8a8;
 }
+/* TODO: contenido */
+.content{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 150px;
+}
