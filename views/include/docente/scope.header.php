@@ -5,7 +5,10 @@
     <link rel="stylesheet" href="views/assets/css/master.css">
     <link rel="shortcut icon" href="views/assets/img/excel.ico">
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,700|Roboto:400,700" rel="stylesheet">
-    <title>Excel</title>
+    <title>Docente</title>
   </head>
   <body>
     <section>
+      <header>
+        <?php require_once "views/modules/docente/menutop.php"; ?>
+      </header>

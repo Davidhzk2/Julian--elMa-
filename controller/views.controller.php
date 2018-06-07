@@ -12,5 +12,11 @@
         require_once "views/include/scope.footer.php";
       }
 
+      public function Docente(){
+        require_once "views/include/docente/scope.header.php";
+        // require_once "views/include/docente/index.php";
+        require_once "views/include/docente/scope.footer.php";
+      }
+
     }
   ?>
