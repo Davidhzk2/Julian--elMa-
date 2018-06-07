@@ -86,6 +86,12 @@
  .itemLeft i{ margin-right: 10px; }
 .itemLeft:hover{ background-color: #a8a8a8; }
 /* ---------------------- */
+ /* TODO: contenido */
+ .content{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-template-rows: 150px; 
+ }
 /* TODO: Registar Docente */
 .wrapRegis{
  width: 50%;
