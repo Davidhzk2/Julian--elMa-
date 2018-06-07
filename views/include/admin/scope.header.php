@@ -11,5 +11,7 @@
   <body>
     <section>
       <header>
-        <?php require_once "views/include/admin/scope.topMenu.php"; ?>
+        <?php require_once "views/include/admin/scope.topMenu.php";
+        require_once "views/include/admin/scope.leftMenu.php";
+         ?>
       </header>
